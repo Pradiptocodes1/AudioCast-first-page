@@ -1,0 +1,140 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background: url("https://i.ibb.co/nm0GNGQ/Group-21.png");
+  background-size: 100%;
+}
+
+.Navbar {
+  display: flex;
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-left: 120px;
+  margin-top: 20px;
+  margin-right: 370px;
+  justify-content: space-between;
+}
+
+.SectionA {
+  position: absolute;
+width: 1224px;
+  height: 330px;
+  right: 0px;
+  left: 0px;
+  margin-top: 17px;
+  box-shadow: -1px 15px 16px -9px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 15px 16px -9px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 15px 16px -9px rgba(0,0,0,0.75);
+z-index: -1;
+ 
+}
+
+.CardDr{
+width: 200px;
+height: 250px;
+left: 7px;
+margin-top: 122px;
+}
+.CardJH{
+  width: 200px;
+  height: 250px;
+  left: 7px;
+  margin-top: 122px;
+  }
+  .CardDrJH{
+    width: 200px;
+    height: 250px;
+    left: 7px;
+    margin-top: 122px;
+    -webkit-animation: flip-horizontal-bottom 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+    animation: flip-horizontal-bottom 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+    }
+    .CardDr2{
+      width: 200px;
+      height: 250px;
+      left: 7px;
+      margin-top: 122px;
+      }
+
+.SectionB{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+a{
+  text-decoration: none;
+  color: #ffffff;
+  
+}
+
+.sell:hover{
+  
+  opacity: 0.8;
+  
+}
+.dash:hover{
+  
+  opacity: 0.8;
+  
+}
+.prem:hover{
+  
+  opacity: 0.8;
+  
+}
+.abtus:hover{
+  
+  opacity: 0.8;
+  
+}
+.trnd:hover{
+  
+  opacity: 0.8;
+  
+}
+.guide:hover{
+  
+  opacity: 0.8;
+  
+}
+
+.CardDr:hover{
+  -moz-transform: scale(1.1) translate(0px, -7px);
+-webkit-transform: scale(1.1) translate(0px, -7px);
+-o-transform: scale(1.1) translate(0px, -7px);
+-ms-transform: scale(1.1) translate(0px, -7px);
+transform: scale(1.1) translate(0px, -7px);
+}
+.CardDr2:hover{
+  -moz-transform: scale(1.1) translate(0px, -7px);
+-webkit-transform: scale(1.1) translate(0px, -7px);
+-o-transform: scale(1.1) translate(0px, -7px);
+-ms-transform: scale(1.1) translate(0px, -7px);
+transform: scale(1.1) translate(0px, -7px);
+}
+.CardDrJH:hover{
+  -moz-transform: scale(1.1) translate(0px, -7px);
+-webkit-transform: scale(1.1) translate(0px, -7px);
+-o-transform: scale(1.1) translate(0px, -7px);
+-ms-transform: scale(1.1) translate(0px, -7px);
+transform: scale(1.1) translate(0px, -7px);
+}
+.CardJH:hover{
+  -moz-transform: scale(1.1) translate(0px, -7px);
+-webkit-transform: scale(1.1) translate(0px, -7px);
+-o-transform: scale(1.1) translate(0px, -7px);
+-ms-transform: scale(1.1) translate(0px, -7px);
+transform: scale(1.1) translate(0px, -7px);
+}
+.NewReleases{
+  width: 937px;
+height: 113px;
+margin-top: 134px;
+
+}
